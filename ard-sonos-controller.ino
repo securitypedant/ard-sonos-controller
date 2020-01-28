@@ -53,7 +53,7 @@ void setup() {
   auto volume = g_sonos.getVolume(g_SonosIP);
  
   Serial.println("Volume is...");
-  Serial.println(String(volume));
+  Serial.println(volume);
   
 }
 
